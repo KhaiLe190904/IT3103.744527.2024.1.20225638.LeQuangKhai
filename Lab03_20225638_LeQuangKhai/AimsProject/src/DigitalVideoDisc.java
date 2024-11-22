@@ -5,6 +5,10 @@ public class DigitalVideoDisc {
     private int length;
     private float cost;
 
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
     public String getTitle() {
         return title;
     }
@@ -49,8 +53,6 @@ public class DigitalVideoDisc {
         this.length = length;
         this.cost = cost;
     }
-
-
 
     public boolean equals(DigitalVideoDisc disc) {
         return this.getTitle() == disc.getTitle();
