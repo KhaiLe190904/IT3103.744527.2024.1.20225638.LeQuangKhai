@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f39d0938-970a-43fd-911b-5c82fc85920c" name="Changes" comment="merge">
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/Java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/out/production/AimsProject/hust/soict/hedspi/aims/Aims/Aims.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/out/production/AimsProject/hust/soict/hedspi/aims/cart/Cart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/out/production/AimsProject/hust/soict/hedspi/aims/disc/DigitalVideoDisc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/out/production/AimsProject/hust/soict/hedspi/aims/store/Store.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/out/production/AimsProject/hust/soict/hedspi/test/cart/CartTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/out/production/AimsProject/hust/soict/hedspi/test/disc/TestPassingParameter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/out/production/AimsProject/hust/soict/hedspi/test/store/StoreTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherProjects/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherProjects/out/production/OtherProjects/Aims.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherProjects/out/production/OtherProjects/CaculateTwoNumbers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherProjects/out/production/OtherProjects/Cart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherProjects/out/production/OtherProjects/ChoosingOption.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherProjects/out/production/OtherProjects/DigitalVideoDisc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherProjects/out/production/OtherProjects/EquationSolver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherProjects/out/production/OtherProjects/FirstDialog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherProjects/out/production/OtherProjects/HelloNameDialog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherProjects/out/production/OtherProjects/HelloWorld.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherProjects/out/production/OtherProjects/InputFromKeyboard.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherProjects/out/production/OtherProjects/ShowTwoNumbers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherProjects/out/production/OtherProjects/exe3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherProjects/out/production/OtherProjects/exe4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherProjects/out/production/OtherProjects/exe5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherProjects/out/production/OtherProjects/exe6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherProjects/out/production/OtherProjects/hust/soict/hedspi/garbage/ConcatenationInLoops.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherProjects/out/production/OtherProjects/hust/soict/hedspi/garbage/GarbageCreator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherProjects/out/production/OtherProjects/hust/soict/hedspi/garbage/NoGarbage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherProjects/out/production/OtherProjects/hust/soict/hedspi/garbage/garbage.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherProjects/src/hust/soict/hedspi/lab01/Lab01_20225638_LeQuangKhai/Ex6.3/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherProjects/src/hust/soict/hedspi/lab01/Lab01_20225638_LeQuangKhai/Ex6.3/out/production/Ex6.3/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherProjects/src/hust/soict/hedspi/lab01/Lab01_20225638_LeQuangKhai/Ex6.4/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherProjects/src/hust/soict/hedspi/lab01/Lab01_20225638_LeQuangKhai/Ex6.4/out/production/Ex6.4/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherProjects/src/hust/soict/hedspi/lab01/Lab01_20225638_LeQuangKhai/Ex6.5/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherProjects/src/hust/soict/hedspi/lab01/Lab01_20225638_LeQuangKhai/Ex6.5/out/production/Ex6.5/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherProjects/src/hust/soict/hedspi/lab01/Lab01_20225638_LeQuangKhai/Ex6.6/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherProjects/src/hust/soict/hedspi/lab01/Lab01_20225638_LeQuangKhai/Ex6.6/out/production/Ex6.6/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherProjects/src/hust/soict/hedspi/lab01/Lab01_20225638_LeQuangKhai/First_Java_Programs/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherProjects/src/hust/soict/hedspi/lab01/Lab01_20225638_LeQuangKhai/First_Java_Programs/out/production/First_Java_Programs/CaculateTwoNumbers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherProjects/src/hust/soict/hedspi/lab01/Lab01_20225638_LeQuangKhai/First_Java_Programs/out/production/First_Java_Programs/EquationSolver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherProjects/src/hust/soict/hedspi/lab01/Lab01_20225638_LeQuangKhai/First_Java_Programs/out/production/First_Java_Programs/FirstDialog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherProjects/src/hust/soict/hedspi/lab01/Lab01_20225638_LeQuangKhai/First_Java_Programs/out/production/First_Java_Programs/HelloNameDialog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherProjects/src/hust/soict/hedspi/lab01/Lab01_20225638_LeQuangKhai/First_Java_Programs/out/production/First_Java_Programs/HelloWorld.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherProjects/src/hust/soict/hedspi/lab01/Lab01_20225638_LeQuangKhai/First_Java_Programs/out/production/First_Java_Programs/ShowTwoNumbers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherProjects/src/hust/soict/hedspi/lab01/Lab01_20225638_LeQuangKhai/First_Java_Programs/out/production/LAB1/CaculateTwoNumbers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherProjects/src/hust/soict/hedspi/lab01/Lab01_20225638_LeQuangKhai/First_Java_Programs/out/production/LAB1/ChoosingOption.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherProjects/src/hust/soict/hedspi/lab01/Lab01_20225638_LeQuangKhai/First_Java_Programs/out/production/LAB1/EquationSolver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherProjects/src/hust/soict/hedspi/lab01/Lab01_20225638_LeQuangKhai/First_Java_Programs/out/production/LAB1/FirstDialog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherProjects/src/hust/soict/hedspi/lab01/Lab01_20225638_LeQuangKhai/First_Java_Programs/out/production/LAB1/HelloNameDialog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherProjects/src/hust/soict/hedspi/lab01/Lab01_20225638_LeQuangKhai/First_Java_Programs/out/production/LAB1/HelloWorld.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherProjects/src/hust/soict/hedspi/lab01/Lab01_20225638_LeQuangKhai/First_Java_Programs/out/production/LAB1/ShowTwoNumbers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherProjects/src/hust/soict/hedspi/lab01/Lab01_20225638_LeQuangKhai/JavaBasics/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherProjects/src/hust/soict/hedspi/lab01/Lab01_20225638_LeQuangKhai/JavaBasics/out/production/JavaBasics/ChoosingOption.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherProjects/src/hust/soict/hedspi/lab01/Lab01_20225638_LeQuangKhai/JavaBasics/out/production/JavaBasics/InputFromKeyboard.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherProjects/src/hust/soict/hedspi/lab02/Lab02_20225638_LeQuangKhai/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherProjects/src/hust/soict/hedspi/lab02/Lab02_20225638_LeQuangKhai/AimsProject/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/19/507553ad0a07001f1769dd92cb081643" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/1f/10e68d2b8f11001f1892862238d56909" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/28/f0602e2b8f11001f1892862238d56909" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/2b/500451ad0a07001f1769dd92cb081643" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/2f/006fca2a8f11001f1892862238d56909" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/32/90ecc62a8f11001f1892862238d56909" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/38/2020698bdaff001e1a91b670a5b202c5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/3c/d03896141d07001f1769dd92cb081643" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/3d/b0d1e50ddbff001e1a91b670a5b202c5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/47/8068912b8f11001f1892862238d56909" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/50/a04822c4c7ff001e1a91b670a5b202c5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/58/909cf9fe0f07001f1769dd92cb081643" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/59/007e91962007001f1769dd92cb081643" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/5b/60591ac4c7ff001e1a91b670a5b202c5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/6/60388c2b8f11001f1892862238d56909" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/62/b0d166090c07001f1769dd92cb081643" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/63/7024c78dc6ff001e1a91b670a5b202c5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/63/a022b64e1d07001f1769dd92cb081643" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/6a/e02fb94e1d07001f1769dd92cb081643" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/6b/40242f2b8f11001f1892862238d56909" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/6b/b0fb8c2b8f11001f1892862238d56909" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/7a/b0b082ce0f07001f1769dd92cb081643" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/7b/10f7b602dbff001e1a91b670a5b202c5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/7f/8045b84e1d07001f1769dd92cb081643" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/80/d04715ef1d07001f1769dd92cb081643" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/82/6097b5bc2007001f1769dd92cb081643" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/84/202c29902007001f1769dd92cb081643" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/84/b0b259e21d07001f1769dd92cb081643" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/94/804f2d2b8f11001f1892862238d56909" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/96/20faaee80f07001f1769dd92cb081643" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/98/903c8a2b8f11001f1892862238d56909" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/a/d016e6bf2007001f1769dd92cb081643" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/a0/2009a7b72007001f1769dd92cb081643" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/a1/10fb97f11d07001f1769dd92cb081643" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/a5/e0ecabe80f07001f1769dd92cb081643" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/a6/9012e30ddbff001e1a91b670a5b202c5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/aa/a00e302b8f11001f1892862238d56909" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/ac/70f4d7a02007001f1769dd92cb081643" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/b1/90817d8294ff001e1a91b670a5b202c5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/b2/103e2c2b8f11001f1892862238d56909" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/b5/e012668bdaff001e1a91b670a5b202c5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/b9/608d4321dbff001e1a91b670a5b202c5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/c3/00fba39a0a07001f1769dd92cb081643" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/ca/e00c8e7d0f07001f1769dd92cb081643" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/d1/908bffb7dcff001e1a91b670a5b202c5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/d4/9058322b8f11001f1892862238d56909" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/db/40545fe5410d001f1d7dfabeb3aa7d39" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/de/70431461dcff001e1a91b670a5b202c5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/e/d09069090c07001f1769dd92cb081643" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/e0/7078b08294ff001e1a91b670a5b202c5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/e6/108353c42007001f1769dd92cb081643" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/ed/a0ce9888c5ff001e1a91b670a5b202c5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/f0/80f91161dcff001e1a91b670a5b202c5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/f7/2047312b8f11001f1892862238d56909" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.history/fd/50c1c82a8f11001f1892862238d56909" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.projects/.org.eclipse.egit.core.cmp/.location" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.projects/cinema_client-master/.indexes/af/history.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.projects/cinema_client-master/.indexes/properties.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.projects/cinema_client-master/.location" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.projects/cinema_client-master/.markers" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.projects/cinema_client-master/1.tree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.projects/cinema_client-master/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.projects/test/.indexes/e4/6c/history.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.projects/test/.markers" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.projects/test/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.root/13.tree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.runtime/.settings/Docker.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.e4.ui.css.swt.theme.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.e4.ui.workbench.renderers.swt.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.egit.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.epp.mpc.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.debug.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.junit.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jsch.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.apt.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.pde.api.tools.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.urischeme.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.springframework.ide.eclipse.boot.dash.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.springframework.ide.eclipse.boot.launch.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.springframework.ide.eclipse.imports.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.springsource.ide.eclipse.commons.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.debug.core/.launches/Bai01.launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.debug.core/.launches/Cars.launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.debug.core/.launches/HelloWorld.launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.debug.core/.launches/Product.launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.debug.core/.launches/Test.launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.debug.core/.launches/arrayslist.launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.debug.core/.launches/check_regexcccd.launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.debug.core/.launches/hammain (1).launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.debug.core/.launches/hammain.launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.debug.core/.launches/hammainP.launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.debug.ui/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.epp.mpc.ui/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.jdt.core/1143511481.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.jdt.core/1865797976.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.jdt.core/3271193799.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.jdt.core/indexNamesMap.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.jdt.core/javaLikeNames.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.jdt.launching/.install.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.jdt.launching/libraryInfos.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.jst.j2ee.web/webLibrariesCache.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.jst.j2ee/earLibrariesCache.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2024/4/17/refactorings.history" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2024/4/17/refactorings.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2024/5/20/refactorings.history" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2024/5/20/refactorings.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/test/2024/4/17/refactorings.history" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/test/2024/4/17/refactorings.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/test/2024/4/18/refactorings.history" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/test/2024/4/18/refactorings.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/test/2024/5/18/refactorings.history" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/test/2024/5/18/refactorings.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.ltk.ui.refactoring/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.m2e.core/cinema_client-master.lifecyclemapping" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.m2e.core/workspacestate.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.m2e.jdt/cinema_client-master.container" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.m2e.logback/0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.0.20240217-1525.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.tips.ide/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.tm.terminal.view.ui/.executables/data.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/.metadata/version.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/test/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/test/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/test/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/test/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/test/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/test/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/test/bin/IO_Stream/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/test/bin/Person/IPerson.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/test/bin/Person/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/test/bin/Person/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/test/bin/Person/hammainP.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/test/bin/Product/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/test/bin/Product/hammain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/test/bin/SinhVien/SinhVien.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/test/bin/SinhVien/hammain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/test/bin/module-info.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/test/bin/test/Bai01.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/test/bin/test/Cars.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/test/bin/test/HelloWorld.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/test/bin/test/SinhVien.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/test/bin/test/SinhVienCoKhi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/test/bin/test/SinhVienIT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/test/bin/test/Vehicle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/test/bin/test/arrayslist.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/test/bin/test/check_regexcccd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/test/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/test/outagain.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/test/src/IO_Stream/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/test/src/Person/IPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/test/src/Person/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/test/src/Person/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/test/src/Person/hammainP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/test/src/Product/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/test/src/Product/hammain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/test/src/SinhVien/SinhVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/test/src/SinhVien/hammain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/test/src/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/test/src/test/Bai01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/test/src/test/Cars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/test/src/test/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/test/src/test/SinhVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/test/src/test/SinhVienCoKhi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/test/src/test/SinhVienIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/test/src/test/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/test/src/test/arrayslist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Learning/test/src/test/check_regexcccd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dev-spring-boot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/20225638-LeQuangKhai-BC_TH_Lab1.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/20225638-LeQuangKhai-BC_TH_Lab1.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/20225638-LeQuangKhai-BC_TH_Lab1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/20225638-LeQuangKhai-BC_TH_Lab1.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/Ex6.3/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/Ex6.3/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/Ex6.3/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/Ex6.3/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/Ex6.3/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/Ex6.3/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/Ex6.3/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/Ex6.3/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/Ex6.3/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/Ex6.3/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/Ex6.3/Ex6.3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/Ex6.3/Ex6.3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/Ex6.4/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/Ex6.4/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/Ex6.4/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/Ex6.4/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/Ex6.4/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/Ex6.4/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/Ex6.4/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/Ex6.4/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/Ex6.4/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/Ex6.4/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/Ex6.4/Ex6.4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/Ex6.4/Ex6.4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/Ex6.5/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/Ex6.5/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/Ex6.5/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/Ex6.5/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/Ex6.5/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/Ex6.5/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/Ex6.5/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/Ex6.5/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/Ex6.5/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/Ex6.5/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/Ex6.5/Ex6.5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/Ex6.5/Ex6.5.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/Ex6.6/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/Ex6.6/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/Ex6.6/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/Ex6.6/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/Ex6.6/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/Ex6.6/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/Ex6.6/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/Ex6.6/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/Ex6.6/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/Ex6.6/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/Ex6.6/Ex6.6.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/Ex6.6/Ex6.6.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/First_Java_Programs/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/First_Java_Programs/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/First_Java_Programs/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/First_Java_Programs/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/First_Java_Programs/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/First_Java_Programs/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/First_Java_Programs/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/First_Java_Programs/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/First_Java_Programs/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/First_Java_Programs/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/First_Java_Programs/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/First_Java_Programs/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/First_Java_Programs/First_Java_Programs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/First_Java_Programs/First_Java_Programs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/JavaBasics/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/JavaBasics/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/JavaBasics/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/JavaBasics/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/JavaBasics/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/JavaBasics/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/JavaBasics/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/JavaBasics/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/JavaBasics/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/JavaBasics/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/JavaBasics/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/JavaBasics/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/JavaBasics/JavaBasics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/JavaBasics/JavaBasics.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/Lab01_20225638_LeQuangKhai.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01_20225638_LeQuangKhai/Lab01_20225638_LeQuangKhai.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab02_20225638_LeQuangKhai/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Lab02_20225638_LeQuangKhai/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab02_20225638_LeQuangKhai/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab02_20225638_LeQuangKhai/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab02_20225638_LeQuangKhai/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab02_20225638_LeQuangKhai/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab02_20225638_LeQuangKhai/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab02_20225638_LeQuangKhai/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab02_20225638_LeQuangKhai/AimsProject/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Lab02_20225638_LeQuangKhai/AimsProject/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab02_20225638_LeQuangKhai/AimsProject/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Lab02_20225638_LeQuangKhai/AimsProject/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab02_20225638_LeQuangKhai/AimsProject/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab02_20225638_LeQuangKhai/AimsProject/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab02_20225638_LeQuangKhai/AimsProject/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab02_20225638_LeQuangKhai/AimsProject/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab02_20225638_LeQuangKhai/AimsProject/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab02_20225638_LeQuangKhai/AimsProject/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab02_20225638_LeQuangKhai/AimsProject/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab02_20225638_LeQuangKhai/AimsProject/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab02_20225638_LeQuangKhai/AimsProject/AimsProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab02_20225638_LeQuangKhai/AimsProject/AimsProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab02_20225638_LeQuangKhai/Design/ClassDiagram.asta" beforeDir="false" afterPath="$PROJECT_DIR$/Lab02_20225638_LeQuangKhai/Design/ClassDiagram.asta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab02_20225638_LeQuangKhai/Design/ClassDiagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/Lab02_20225638_LeQuangKhai/Design/ClassDiagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab02_20225638_LeQuangKhai/Lab02_20225638_LeQuangKhai.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Lab02_20225638_LeQuangKhai/Lab02_20225638_LeQuangKhai.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab02_20225638_LeQuangKhai/Lab02_20225638_LeQuangKhai.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab02_20225638_LeQuangKhai/Lab02_20225638_LeQuangKhai.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab02_20225638_LeQuangKhai/Lab02_20225638_LeQuangKhai.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Lab02_20225638_LeQuangKhai/Lab02_20225638_LeQuangKhai.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab02_20225638_LeQuangKhai/Lab02_20225638_LeQuangKhai.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Lab02_20225638_LeQuangKhai/Lab02_20225638_LeQuangKhai.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab02_20225638_LeQuangKhai/Requirement/UseCaseDiagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/Lab02_20225638_LeQuangKhai/Requirement/UseCaseDiagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab02_20225638_LeQuangKhai/Requirement/UsecaseDiagram.asta" beforeDir="false" afterPath="$PROJECT_DIR$/Lab02_20225638_LeQuangKhai/Requirement/UsecaseDiagram.asta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2pF3xq16NQa9LXM4UQeyQBrZHac" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Aims.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Merging topic/memory-management-string",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Workspace/Forlearning/Java/IT3103.744527.2024.1.20225638.LeQuangKhai/OtherProjects",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Workspace\Forlearning\Java\IT3103.744527.2024.1.20225638.LeQuangKhai\OtherProjects" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f39d0938-970a-43fd-911b-5c82fc85920c" name="Changes" comment="" />
+      <created>1732348245767</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732348245767</updated>
+      <workItem from="1732348246977" duration="689000" />
+      <workItem from="1732349085294" duration="277000" />
+      <workItem from="1732349374669" duration="48000" />
+      <workItem from="1732349427156" duration="67000" />
+      <workItem from="1732349647773" duration="408000" />
+      <workItem from="1732350070137" duration="187000" />
+      <workItem from="1732353948208" duration="495000" />
+      <workItem from="1732354509855" duration="150000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="doc" />
+    <MESSAGE value="merge" />
+    <option name="LAST_COMMIT_MESSAGE" value="merge" />
+  </component>
+</project>
