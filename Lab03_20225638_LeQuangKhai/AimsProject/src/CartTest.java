@@ -21,17 +21,20 @@ public class CartTest {
 
         // print
         cart.printAllDisc();
-//        // search by id
-//        DigitalVideoDisc dvd4 = cart.searchById(4);
-//        if(dvd4 == null){
-//            System.out.println("Khong tim thay id cua dvd");
-//        } else System.out.println("Search by id: " + dvd4.toString());
-//
-//        // search by title
-//        DigitalVideoDisc dvd5 = cart.searchByTitle("Smile");
-//        if(dvd5 == null){
-//            System.out.println("Khong tim thay title nao phu hop");
-//        } else System.out.println("Search by title: " + dvd5.toString());
+        // search by id
+        DigitalVideoDisc dvd4 = cart.searchById(1);
+        if(dvd4 == null){
+            System.out.println("Khong tim thay id cua dvd");
+        } else System.out.println("Search by id: " + dvd4.toString());
+
+        // search by title
+        DigitalVideoDisc dvd5 = cart.searchByTitle("Smile");
+        if(dvd5 == null){
+            System.out.println("Khong tim thay title nao phu hop");
+        } else System.out.println("Search by title: " + dvd5.toString());
+
+        // isMatch
+        System.out.println(dvd4.isMatch("your"));
 
     }
 }

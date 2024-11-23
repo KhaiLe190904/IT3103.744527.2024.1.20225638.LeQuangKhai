@@ -75,4 +75,11 @@ public class DigitalVideoDisc {
     public String toString(){
         return String.format("DVD - %s - %s - %s - %d minutes : %.2f $",title, category, director, length, cost);
     }
+
+    public boolean isMatch(String title) {
+        if (title == null || this.title == null) {
+            return false; // Prevent null pointer exceptions
+        }
+        return this.title.toLowerCase().contains(title.toLowerCase());
+    }
 }

@@ -117,24 +117,24 @@ public class Cart {
         System.out.println("***************************************************");
     }
 
-//    // Search Cart by id
-//    public DigitalVideoDisc searchById(int id) {
-//        for (int i = 0; i < this.numberOfItemsOrdered; ++i) {
-//            if (this.itemsOrdered[i].getId() == id) {
-//                return this.itemsOrdered[i];
-//            }
-//        }
-//        return null;
-//    }
-//
-//    // Search Cart by title
-//    public DigitalVideoDisc searchByTitle(String title) {
-//        for (int i = 0; i < this.numberOfItemsOrdered; ++i) {
-//            if (this.itemsOrdered[i].getTitle().equals(title)) {
-//                return this.itemsOrdered[i];
-//            }
-//        }
-//        return null;
-//    }
+    // Search Cart by id
+    public DigitalVideoDisc searchById(int id) {
+        for (int i = 0; i < this.numberOfItemsOrdered; ++i) {
+            if (this.itemsOrdered[i].getId() == id) {
+                return this.itemsOrdered[i];
+            }
+        }
+        return null;
+    }
+
+    // Search Cart by title
+    public DigitalVideoDisc searchByTitle(String title) {
+        for (int i = 0; i < this.numberOfItemsOrdered; ++i) {
+            if (this.itemsOrdered[i].getTitle().equals(title)) {
+                return this.itemsOrdered[i];
+            }
+        }
+        return null;
+    }
 
 }
