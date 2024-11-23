@@ -13,7 +13,10 @@ public class Aims {
                 "Animation", "Inside Out", 18.99f);
 //        DigitalVideoDisc[] dvdList = {dvd1, dvd2, dvd3};
 //        anOrder.addDigitalVideoDisc(dvdList);
-        anOrder.addDigitalVideoDisc(dvd1, dvd2);
-        anOrder.printAllDisc();
+//        anOrder.addDigitalVideoDisc(dvd1, dvd2);
+//        anOrder.printAllDisc();
+        System.out.println("Id of dvd1: " +dvd1.getId());
+        System.out.println("Id of dvd2: " +dvd2.getId());
+        System.out.println("Id of dvd3: " +dvd3.getId());
     }
 }
