@@ -70,4 +70,9 @@ public class DigitalVideoDisc {
     public boolean equals(DigitalVideoDisc disc) {
         return this.getTitle() == disc.getTitle();
     }
+
+    //Method toString
+    public String toString(){
+        return String.format("DVD - %s - %s - %s - %d minutes : %.2f $",title, category, director, length, cost);
+    }
 }

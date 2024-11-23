@@ -108,12 +108,33 @@ public class Cart {
 
     // In ra toan bo thong tin ve cart gom cac dia trong cart va tong tien
     public void  printAllDisc() {
-        System.out.println("\n----------CART----------");
+        System.out.println("\n***********************CART***********************");
         System.out.println("Ordered Items:");
         for (int i = 0; i < this.numberOfItemsOrdered ; i++) {
-            System.out.println((i + 1) + ". " + this.itemsOrdered[i].getTitle());
+            System.out.println((i + 1) + ". " + this.itemsOrdered[i].toString());
         }
         System.out.println("Total cost: " + totalCost() + " $");
-        System.out.println("--------------------------");
+        System.out.println("***************************************************");
     }
+
+//    // Search Cart by id
+//    public DigitalVideoDisc searchById(int id) {
+//        for (int i = 0; i < this.numberOfItemsOrdered; ++i) {
+//            if (this.itemsOrdered[i].getId() == id) {
+//                return this.itemsOrdered[i];
+//            }
+//        }
+//        return null;
+//    }
+//
+//    // Search Cart by title
+//    public DigitalVideoDisc searchByTitle(String title) {
+//        for (int i = 0; i < this.numberOfItemsOrdered; ++i) {
+//            if (this.itemsOrdered[i].getTitle().equals(title)) {
+//                return this.itemsOrdered[i];
+//            }
+//        }
+//        return null;
+//    }
+
 }
