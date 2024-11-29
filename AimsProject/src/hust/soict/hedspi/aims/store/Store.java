@@ -1,48 +1,44 @@
 package hust.soict.hedspi.aims.store;// Le Quang Khai 20225638
-
-import hust.soict.hedspi.aims.disc.DigitalVideoDisc;
+// Le Quang Khai 20225638
+import hust.soict.hedspi.aims.media.DigitalVideoDisc;
+import hust.soict.hedspi.aims.media.Media;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Store {
-    private List<DigitalVideoDisc> itemsInStore;
+    public static final int MAX_CAPACITY = 1000;
+    private ArrayList<Media> itemsInStore = new ArrayList<Media>(MAX_CAPACITY);
 
-    // Constructor
-    public Store() {
-        itemsInStore = new ArrayList<>();
-    }
-
-    // Method to add a DVD to the store
-    public void addDVD(DigitalVideoDisc dvd) {
-        if (dvd == null) {
-            System.out.println("Cannot add a null DVD to the store.");
-            return;
-        }
-        itemsInStore.add(dvd);
-        System.out.println("Le Quang Khai - 20225638 - Added DVD: " + dvd.getTitle());
-    }
-
-    // Method to remove a DVD from the store
-    public void removeDVD(DigitalVideoDisc dvd) {
-        if (dvd == null || !itemsInStore.contains(dvd)) {
-            System.out.println("DVD not found in the store.");
-            return;
-        }
-        itemsInStore.remove(dvd);
-        System.out.println("Le Quang Khai - 20225638 - Removed DVD: " + dvd.getTitle());
-    }
-
-    // Method to display all DVDs in the store
-    public void displayStore() {
-        System.out.println("\nLe Quang Khai - 20225638 - Current DVDs in hust.soict.hedspi.aims.store.Store:");
-        if (itemsInStore.isEmpty()) {
-            System.out.println("The store is empty.");
+    public void addMedia(Media media) {
+        if (itemsInStore.size() < MAX_CAPACITY) {
+            itemsInStore.add(media);
+            System.out.println("The " + media.getClass().getSimpleName() + " " + media.getTitle() + " has been added to store");
         } else {
-            for (DigitalVideoDisc dvd : itemsInStore) {
-                System.out.println(dvd);
-            }
+            System.out.println("The store is full!!!");
         }
+    }
+
+    public void removeMedia(Media media) {
+        if (itemsInStore.remove(media)) {
+            System.out.println("The " + media.getClass().getSimpleName() + " " + media.getTitle() + " has been removed from the store");
+        } else {
+            System.out.println("The " + media.getClass().getSimpleName() + " " + media.getTitle() + " doesn't exist in the store");
+        }
+    }
+    public boolean checkInStore(String title){
+        for(Media item : itemsInStore){
+            if (title.compareTo(item.getTitle())==0)
+                return true;
+        }
+        return false;
+    }
+    public Media searchItem(String title){
+
+        for(Media item : itemsInStore){
+            if(title.compareTo(item.getTitle())==0) return item;
+        }
+        return null;
     }
 }
 
