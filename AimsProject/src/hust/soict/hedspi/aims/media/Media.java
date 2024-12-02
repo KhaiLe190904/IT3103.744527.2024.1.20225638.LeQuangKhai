@@ -70,4 +70,17 @@ public abstract class Media {
     public void print(){
     // lam o ham con
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null || getClass() != obj.getClass()) {
+            return false;
+        }
+
+        Media media = (Media) obj;
+        return getTitle().equals(media.getTitle());
+    }
 }

@@ -210,13 +210,8 @@
       <change afterPath="$PROJECT_DIR$/../../Learning/test/src/test/check_regexcccd.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../dev-spring-boot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/Aims.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/Aims.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/cart/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/cart/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/disc/DigitalVideoDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/media/DigitalVideoDisc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/store/Store.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/soict/hedspi/test/cart/CartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/hedspi/test/cart/CartTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/soict/hedspi/test/disc/TestPassingParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/hedspi/test/disc/TestPassingParameter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/soict/hedspi/test/store/StoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/hedspi/test/store/StoreTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/media/Media.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/media/Media.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/media/Track.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/media/Track.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -254,7 +249,7 @@
     &quot;Application.StoreTest.executor&quot;: &quot;Run&quot;,
     &quot;Application.TestPassingParameter.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;topic/playable&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/admin/Music/Network-programming-battleship/battleship&quot;,
@@ -321,7 +316,9 @@
       <workItem from="1732623201230" duration="122000" />
       <workItem from="1732689033374" duration="5314000" />
       <workItem from="1732762272132" duration="2000" />
-      <workItem from="1732858851423" duration="2296000" />
+      <workItem from="1732858851423" duration="2590000" />
+      <workItem from="1733117722780" duration="5683000" />
+      <workItem from="1733159966907" duration="370000" />
     </task>
     <servers />
   </component>
