@@ -25,11 +25,16 @@ public class DigitalVideoDisc extends Disc implements Playable{
         super(category, title, cost);
         this.setId(++nbDigitalVideoDiscs);
     }
+    public DigitalVideoDisc(String title, String category, float cost, int length) {
+        super(category, title, cost);
+        this.length = length;
+    }
 
     public DigitalVideoDisc(String director, String category, String title, float cost) {
         super(category, title, cost, director);
         this.setId(++nbDigitalVideoDiscs);
     }
+
 
     public DigitalVideoDisc(String title, String category, String director, int length, float cost) {
         super(category, title, cost, director, length);
@@ -44,7 +49,7 @@ public class DigitalVideoDisc extends Disc implements Playable{
     @Override
     public String toString() {
         // TODO Auto-generated method stub
-        return "ID:"+ getId()+" DigitalVideoDisc: " + getTitle() + " - " + getCategory() + " - $" + getCost() + " - Length: " + getLength() + " minutes";
+        return "ID: "+ getId()+" DigitalVideoDisc: " + getTitle() + " - " + getCategory() + " - $" + getCost() + " - Length: " + getLength() + " minutes";
     }
 
     public boolean isMatch(String title) {

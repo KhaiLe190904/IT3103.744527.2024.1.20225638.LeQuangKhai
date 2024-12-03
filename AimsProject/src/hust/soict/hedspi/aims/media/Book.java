@@ -13,6 +13,10 @@ public class Book extends Media{
         this.authors = authors;
     }
 
+    public Book(String title, String category, float cost) {
+        super(category, title, cost);
+    }
+
     public List<String> getAuthors() {
         return authors;
     }
@@ -44,6 +48,6 @@ public class Book extends Media{
     @Override
     public String toString() {
         // TODO Auto-generated method stub
-        return "ID: "+ getId()+"Book: " + getTitle() + " - " + getCategory() + " - $" + getCost() + " - Authors: " + authors;
+        return "ID: "+ getId()+" Book: " + getTitle() + " - " + getCategory() + " - $" + getCost() + " - Authors: " + authors;
     }
 }

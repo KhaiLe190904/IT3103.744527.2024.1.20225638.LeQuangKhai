@@ -40,5 +40,18 @@ public class Store {
         }
         return null;
     }
+
+    public void displayAllMedia() {
+        if (itemsInStore.isEmpty()) {
+            System.out.println("The store is currently empty.");
+        } else {
+            System.out.println("Items in the store:");
+            for (int i = 0; i < itemsInStore.size(); i++) {
+                Media media = itemsInStore.get(i);
+                System.out.println((i + 1) + ". " + media.getClass().getSimpleName() + ": " + media.getTitle());
+            }
+        }
+    }
+
 }
 

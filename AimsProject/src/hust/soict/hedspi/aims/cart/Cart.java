@@ -4,6 +4,7 @@ import hust.soict.hedspi.aims.media.DigitalVideoDisc;
 import hust.soict.hedspi.aims.media.Media;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Cart {
     public static final int MAX_NUMBERS_ORDERED = 20;
@@ -83,8 +84,15 @@ public class Cart {
     }
 
     public void cartEmpty(){
-        for(Media item:itemsOrdered)
-            removeMedia(item);
+        itemsOrdered.clear(); // Cách đơn giản nhất để xóa toàn bộ danh sách
+    }
+
+    public void sortTitle(){
+        Collections.sort(itemsOrdered, Media.COMPARE_BY_TITLE_COST);
+
+    }
+    public void sortCost(){
+        Collections.sort(itemsOrdered, Media.COMPARE_BY_COST_TITLE);
     }
 
 }

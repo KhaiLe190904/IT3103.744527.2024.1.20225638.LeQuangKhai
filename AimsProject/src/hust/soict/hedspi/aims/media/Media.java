@@ -1,25 +1,37 @@
 package hust.soict.hedspi.aims.media;
 
+import java.util.Comparator;
+
 // Le Quang Khai 20225638
 public abstract class Media {
     private int id;
     private String title;
     private String category;
     private float cost;
+    private static int nbMedia = 0;
+    public static final Comparator<Media> COMPARE_BY_TITLE_COST = new MediaComparatorByTitleCost();
+    public static final Comparator<Media> COMPARE_BY_COST_TITLE = new MediaComparatorByCostTitle();
+
+    public Media() {
+        super();
+        this.id = ++nbMedia;
+    }
 
     public Media(String title) {
         this.title = title;
+        this.id = ++nbMedia;
     }
 
 
     public Media(String category, String title, float cost) {
+        this.id = ++nbMedia;
         this.category = category;
         this.title = title;
         this.cost = cost;
     }
 
     public Media(int id, String title, String category, float cost) {
-        this.id = id;
+        this.id = ++nbMedia;
         this.title = title;
         this.category = category;
         this.cost = cost;
