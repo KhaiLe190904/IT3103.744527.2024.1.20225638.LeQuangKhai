@@ -209,23 +209,6 @@
       <change afterPath="$PROJECT_DIR$/../../Learning/test/src/test/arrayslist.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Learning/test/src/test/check_regexcccd.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../dev-spring-boot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/Aims/Aims.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/cart/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/cart/Cart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/disc/DigitalVideoDisc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/store/Store.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/store/Store.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/test/cart/CartTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/test/cart/CartTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/test/disc/TestPassingParameter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/test/disc/TestPassingParameter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/test/store/StoreTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/test/store/StoreTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/Aims.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/Aims.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/cart/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/cart/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/media/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/media/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/media/CompactDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/media/CompactDisc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/media/DigitalVideoDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/media/DigitalVideoDisc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/media/Media.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/media/Media.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/store/Store.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/soict/hedspi/test/cart/CartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/hedspi/test/cart/CartTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/soict/hedspi/test/store/StoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/hedspi/test/store/StoreTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -352,7 +335,7 @@
       <workItem from="1733117722780" duration="5683000" />
       <workItem from="1733159966907" duration="1987000" />
       <workItem from="1733210453653" duration="1721000" />
-      <workItem from="1733235075351" duration="10122000" />
+      <workItem from="1733235075351" duration="10649000" />
     </task>
     <servers />
   </component>
