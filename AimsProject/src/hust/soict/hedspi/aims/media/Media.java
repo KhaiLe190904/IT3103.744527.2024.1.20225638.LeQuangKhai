@@ -1,98 +1,98 @@
 package hust.soict.hedspi.aims.media;
 
 import java.util.Comparator;
+import java.util.Objects;
 
-// Le Quang Khai 20225638
 public abstract class Media {
-    private int id;
-    private String title;
-    private String category;
-    private float cost;
-    private static int nbMedia = 0;
-    public static final Comparator<Media> COMPARE_BY_TITLE_COST = new MediaComparatorByTitleCost();
-    public static final Comparator<Media> COMPARE_BY_COST_TITLE = new MediaComparatorByCostTitle();
 
-    public Media() {
-        super();
-        this.id = ++nbMedia;
-    }
+	public static final Comparator<Media> COMPARE_BY_TITLE_COST = new MediaComparatorByTitle()
+			.thenComparing(new MediaComparatorByCost());
+	public static final Comparator<Media> COMPARE_BY_COST_TITLE = new MediaComparatorByCost()
+			.thenComparing(new MediaComparatorByTitle());
 
-    public Media(String title) {
-        this.title = title;
-        this.id = ++nbMedia;
-    }
+	private static int nbMedia = 0;
+	protected int id;
+	protected String title;
+	protected String category;
+	protected float cost;
 
+	public Media() {
+		super();
+		this.id = ++nbMedia;
+	}
 
-    public Media(String category, String title, float cost) {
-        this.id = ++nbMedia;
-        this.category = category;
-        this.title = title;
-        this.cost = cost;
-    }
+	public Media(String title) {
+		this();
+		this.title = title;
+	}
 
-    public Media(int id, String title, String category, float cost) {
-        this.id = ++nbMedia;
-        this.title = title;
-        this.category = category;
-        this.cost = cost;
-    }
+	public Media(String title, String category, float cost) {
+		this(title);
+		this.category = category;
+		this.cost = cost;
+	}
+	// Lê Quang Khải 20225638
+	public boolean isMatch(String title) {
+		String[] keywords = title.split("\\s+");
+		for (String word : keywords) {
+			if (this.title.toLowerCase().contains(word.toLowerCase()))
+				return true;
+		}
+		return false;
+	}
 
-    public int getId() {
-        return id;
-    }
+	public int getId() {
+		return id;
+	}
 
-    public void setId(int id) {
-        this.id = id;
-    }
+	public String getTitle() {
+		return title;
+	}
 
-    public String getTitle() {
-        return title;
-    }
+	public String getCategory() {
+		return category;
+	}
 
-    public void setTitle(String title) {
-        this.title = title;
-    }
+	public float getCost() {
+		return cost;
+	}
 
-    public String getCategory() {
-        return category;
-    }
+	abstract public String getDetails();
+	// Lê Quang Khải 20225638
 
-    public void setCategory(String category) {
-        this.category = category;
-    }
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Media other = (Media) obj;
+		return Objects.equals(title, other.title);
+	}
 
-    public float getCost() {
-        return cost;
-    }
+	public static int getNbMedia() {
+		return nbMedia;
+	}
 
-    public void setCost(float cost) {
-        this.cost = cost;
-    }
+	public static void setNbMedia(int nbMedia) {
+		Media.nbMedia = nbMedia;
+	}
 
-    @Override
-    public String toString() {
-        return "Media{" +
-                "id=" + id +
-                ", title='" + title + '\'' +
-                ", category='" + category + '\'' +
-                ", cost=" + cost +
-                '}';
-    }
+	public void setId(int id) {
+		this.id = id;
+	}
 
-    public void print(){
-    // lam o ham con
-    }
+	public void setTitle(String title) {
+		this.title = title;
+	}
 
-    @Override
-    public boolean equals(Object obj) {
-        if (this == obj) {
-            return true;
-        }
-        if (obj == null || getClass() != obj.getClass()) {
-            return false;
-        }
+	public void setCategory(String category) {
+		this.category = category;
+	}
 
-        Media media = (Media) obj;
-        return getTitle().equals(media.getTitle());
-    }
+	public void setCost(float cost) {
+		this.cost = cost;
+	}
 }

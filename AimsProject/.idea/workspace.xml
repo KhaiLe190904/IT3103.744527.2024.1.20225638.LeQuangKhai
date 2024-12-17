@@ -209,6 +209,23 @@
       <change afterPath="$PROJECT_DIR$/../../Learning/test/src/test/arrayslist.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Learning/test/src/test/check_regexcccd.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../dev-spring-boot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AimsProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Design/Class Diagram0.png" beforeDir="false" afterPath="$PROJECT_DIR$/Design/Class Diagram0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Report/~$225638-LeQuangKhai-744527-IT3103-BC_TH_Lab4.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/cart/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/cart/Cart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/store/Store.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/store/Store.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/Aims.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/Aims.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/cart/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/cart/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/media/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/media/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/media/CompactDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/media/CompactDisc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/media/DigitalVideoDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/media/DigitalVideoDisc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/media/Disc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/media/Disc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/media/Media.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/media/Media.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/media/Playable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/media/Playable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/media/Track.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/media/Track.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/store/Store.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -231,10 +248,10 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/AppData/Local/Temp/bacfe6d3-dba5-47ad-84b4-35c30ec975c9_AimsProject Lab3.zip.5c9/src/Cart.java" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -250,15 +267,18 @@
     "Application.StoreTest.executor": "Run",
     "Application.TestPassingParameter.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "topic/update-class-diagram/aims-project/lab04",
+    "git-widget-placeholder": "release/lab04",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/admin/Music/Network-programming-battleship/battleship",
+    "last_opened_file_path": "D:/Workspace/Forlearning/Project/Dental_Clinic_Management",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
@@ -290,6 +310,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Aims" />
+      <item itemvalue="Application.TestPassingParameter" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Aims" />
@@ -335,11 +359,34 @@
       <workItem from="1733117722780" duration="5683000" />
       <workItem from="1733159966907" duration="1987000" />
       <workItem from="1733210453653" duration="1721000" />
-      <workItem from="1733235075351" duration="10649000" />
+      <workItem from="1733235075351" duration="11195000" />
+      <workItem from="1733320461530" duration="1229000" />
+      <workItem from="1733812318198" duration="1019000" />
+      <workItem from="1733814174514" duration="34000" />
+      <workItem from="1734368890036" duration="10000" />
+      <workItem from="1734372125458" duration="1182000" />
+      <workItem from="1734373330717" duration="1191000" />
+      <workItem from="1734413757747" duration="1872000" />
+      <workItem from="1734416729590" duration="175000" />
+      <workItem from="1734417067280" duration="120000" />
+      <workItem from="1734417213078" duration="947000" />
+      <workItem from="1734418641970" duration="1948000" />
+      <workItem from="1734443264982" duration="1329000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

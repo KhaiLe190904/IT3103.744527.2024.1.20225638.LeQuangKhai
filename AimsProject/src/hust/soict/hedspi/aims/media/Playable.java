@@ -1,5 +1,8 @@
+
 package hust.soict.hedspi.aims.media;
-// Le Quang Khai - 20225638
+
+import hust.soict.hedspi.aims.exception.PlayerException;
+// Lê Quang Khải 20225638
 public interface Playable {
-    public void play();
+	public void play() throws PlayerException;
 }
