@@ -209,23 +209,11 @@
       <change afterPath="$PROJECT_DIR$/../../Learning/test/src/test/arrayslist.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Learning/test/src/test/check_regexcccd.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../dev-spring-boot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AimsProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Design/Class Diagram0.png" beforeDir="false" afterPath="$PROJECT_DIR$/Design/Class Diagram0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/~$225638-LeQuangKhai-744527-IT3103-BC_TH_Lab4.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/cart/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/cart/Cart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/store/Store.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/hedspi/aims/store/Store.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/Aims.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/Aims.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/cart/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/cart/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/media/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/media/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/media/CompactDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/media/CompactDisc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/media/DigitalVideoDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/media/DigitalVideoDisc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/media/Disc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/media/Disc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/media/Media.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/media/Media.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/media/Playable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/media/Playable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/media/Track.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/media/Track.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/hedspi/aims/store/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Report/20225638-LeQuangKhai-744527-IT3103-BC_TH_Lab5.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Report/20225638-LeQuangKhai-744527-IT3103-BC_TH_Lab5.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Report/Lab03_20225638_LeQuangKhai.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Report/~$225638-LeQuangKhai-744527-IT3103-BC_TH_Lab5.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Report/~WRL0005.tmp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -245,6 +233,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;KhaiLe190904&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/KhaiLe190904/IT3103.744527.2024.1.20225638.LeQuangKhai.git&quot;,
+    &quot;accountId&quot;: &quot;fc31d2e6-589f-4faa-ae8c-8d3539d7aecc&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/AppData/Local/Temp/bacfe6d3-dba5-47ad-84b4-35c30ec975c9_AimsProject Lab3.zip.5c9/src/Cart.java" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -267,19 +267,19 @@
     "Application.StoreTest.executor": "Run",
     "Application.TestPassingParameter.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "release/lab04",
+    "git-widget-placeholder": "release/lab05",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Workspace/Forlearning/Project/Dental_Clinic_Management",
+    "last_opened_file_path": "D:/Workspace/Forlearning/Project/Dental_Clinic_Management/BE",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "preferences.JavaFX",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -324,8 +324,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
-        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.145" />
       </set>
     </attachedChunks>
   </component>
@@ -371,7 +371,10 @@
       <workItem from="1734417067280" duration="120000" />
       <workItem from="1734417213078" duration="947000" />
       <workItem from="1734418641970" duration="1948000" />
-      <workItem from="1734443264982" duration="1329000" />
+      <workItem from="1734443264982" duration="2582000" />
+      <workItem from="1734447492761" duration="180000" />
+      <workItem from="1734447897598" duration="542000" />
+      <workItem from="1734448454654" duration="1850000" />
     </task>
     <servers />
   </component>
@@ -388,5 +391,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
