@@ -1,67 +1,83 @@
-package hust.soict.hedspi.aims.media;// Lê Quang Khải 20225638
+package hust.soict.hedspi.aims.media;
 
-public class DigitalVideoDisc extends Disc implements Playable{
+import java.util.Scanner;
 
-    private static int nbDigitalVideoDiscs = 0;
-    private String director;
-    private int length;
+import javax.swing.JOptionPane;
+
+import hust.soict.hedspi.aims.exception.PlayerException;
+// Lê Quang Khải 20225638
+public class DigitalVideoDisc extends Disc implements Playable {
+
+	public DigitalVideoDisc() {
+		super();
+	}
+	
+	public DigitalVideoDisc(String title) {
+		super(title);
+	}
+
+	public DigitalVideoDisc(String title, String category, float cost) {
+		super(title, category, cost);
+	}
+
+	public DigitalVideoDisc(String title, String category, String director, float cost) {
+		super(title, category, director, cost);
+	}
+
+	public DigitalVideoDisc(String title, String category, String director, int length, float cost) {
+		super(title, category, director, length, cost);
+	}
+
+	public String getDetails() {
+		return String.format("---DVD---\nTitle: %s\nCategory: %s\nDirector: %s\nLength: %dm.\nCost: %.2f $\n", title,
+				category, director, length, cost).replaceAll(" null | 0 ", " Unknown ");
+	}
+	// Lê Quang Khải 20225638
+	@Override
+	public void play() throws PlayerException {
+
+		if (getLength() <= 0) {
+			throw new PlayerException("ERROR: DVD length is non-positive!");
+		} else {
+			StringBuilder sb = new StringBuilder();
+			sb.append("Playing DVD: " + this.getTitle() + "\n");
+			sb.append("DVD length: " + this.getLength() + "\n");
+			JOptionPane.showMessageDialog(null, sb.toString(), "Play DVD", JOptionPane.INFORMATION_MESSAGE);
+		}
+
+	}
+
+	@Override
+	public String toString() {
+		return String.format("DVD - %s - %s - %s - %dm. : %.2f $", title, category, director, length, cost)
+				.replaceAll(" null | 0 ", " Unknown ");
+	}
+
+	public static DigitalVideoDisc createDVD() {
+		System.out.println("---New DVD---");
+		String title, category, director;
+		int length;
+		float cost;
+
+		Scanner sc = new Scanner(System.in);
+
+		System.out.print("Enter title: ");
+		title = sc.nextLine();
+
+		System.out.print("Enter category: ");
+		category = sc.nextLine();
+
+		System.out.print("Enter director: ");
+		director = sc.nextLine();
+
+		System.out.print("Enter length: ");
+		length = sc.nextInt();
+
+		System.out.print("Enter cost: ");
+		cost = sc.nextFloat();
+
+		return new DigitalVideoDisc(title, category, director, length, cost);
+	}
 
 
-    public String getDirector() {
-        return director;
-    }
-
-    public int getLength() {
-        return length;
-    }
-
-
-    public DigitalVideoDisc(String title) {
-        super(title);
-        this.setId(++nbDigitalVideoDiscs);
-    }
-
-    public DigitalVideoDisc(String category, String title, float cost) {
-        super(category, title, cost);
-        this.setId(++nbDigitalVideoDiscs);
-    }
-    public DigitalVideoDisc(String title, String category, float cost, int length) {
-        super(category, title, cost);
-        this.length = length;
-    }
-
-    public DigitalVideoDisc(String director, String category, String title, float cost) {
-        super(category, title, cost, director);
-        this.setId(++nbDigitalVideoDiscs);
-    }
-
-
-    public DigitalVideoDisc(String title, String category, String director, int length, float cost) {
-        super(category, title, cost, director, length);
-        this.setId(++nbDigitalVideoDiscs);
-    }
-
-    public boolean equals(DigitalVideoDisc disc) {
-        return this.getTitle() == disc.getTitle();
-    }
-
-    //Method toString
-    @Override
-    public String toString() {
-        // TODO Auto-generated method stub
-        return "ID: "+ getId()+" DigitalVideoDisc: " + getTitle() + " - " + getCategory() + " - $" + getCost() + " - Length: " + getLength() + " minutes";
-    }
-
-    public boolean isMatch(String title) {
-        if (title == null || this.getTitle() == null) {
-            return false; // Prevent null pointer exceptions
-        }
-        return this.getTitle().toLowerCase().contains(title.toLowerCase());
-    }
-
-    @Override
-    public void play() {
-        System.out.println("Playing DVD: " + this.getTitle());
-        System.out.println("DVD length: " + this.getLength());
-    }
 }

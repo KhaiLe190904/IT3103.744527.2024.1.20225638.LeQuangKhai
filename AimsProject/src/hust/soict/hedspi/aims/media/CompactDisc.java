@@ -1,75 +1,143 @@
 package hust.soict.hedspi.aims.media;
-// Le Quang Khai - 20225638
+
 import java.util.ArrayList;
+import java.util.Scanner;
 
+import javax.swing.JOptionPane;
+
+import hust.soict.hedspi.aims.exception.PlayerException;
+// Lê Quang Khải 20225638
 public class CompactDisc extends Disc implements Playable {
-    private String artist;
-    private ArrayList<Track> tracks;
+	private String artist;
+	private ArrayList<Track> tracks = new ArrayList<Track>();
 
-    // Constructor
-    public CompactDisc(String title, String category, float cost, String director, int length, String artist) {
-        super(title, category, cost, director, length);
-        this.artist = artist;
-        this.tracks = new ArrayList<>();
-    }
+	public CompactDisc() {
+		super();
+	}
 
-    public CompactDisc(String title, String category, float cost, String artist) {
-        super(category, title, cost);
-        this.artist = artist;
-    }
+	public CompactDisc(String title) {
+		super(title);
+	}
 
-    public CompactDisc(String title, String category, float cost, String artist, ArrayList<Track> tracks) {
-        super(category, title, cost);
-        this.artist = artist;
-        this.tracks = tracks;
-    }
+	public CompactDisc(String title, String category, float cost) {
+		super(title, category, cost);
+	}
 
-    public String getArtist() {
-        return artist;
-    }
+	public CompactDisc(String title, String category, String artist, float cost) {
+		this(title, category, cost);
+		this.artist = artist;
+	}
 
-    // Method to add a track
-    public void addTrack(Track track) {
-        if (!tracks.contains(track)) {
-            tracks.add(track);
-            System.out.println(track.getTitle() + " added to the CD.");
-        } else {
-            System.out.println(track.getTitle() + " is already in the CD.");
-        }
-    }
+	public CompactDisc(String title, String category, String artist, String director, float cost) {
+		this(title, category, artist, cost);
+		this.director = director;
+	}
 
-    // Method to remove a track
-    public void removeTrack(Track track) {
-        if (tracks.contains(track)) {
-            tracks.remove(track);
-            System.out.println(track.getTitle() + " removed from the CD.");
-        } else {
-            System.out.println(track.getTitle() + " is not in the CD.");
-        }
-    }
+	public String getArtist() {
+		return artist;
+	}
 
-    // Method to get the total length of the CD
-    public int getLength() {
-        int totalLength = 0;
-        for (Track track : tracks) {
-            totalLength += track.getLength();
-        }
-        return totalLength;
-    }
+	public void addTrack(Track track) {
+		if (tracks.contains(track)) {
+			System.out.println("Track already exists.");
+		} else {
+			tracks.add(track);
+			System.out.println("Added track " + track.getTitle() + " to CD.");
+		}
+	}
 
+	public void removeTrack(Track track) {
+		if (tracks.remove(track)) {
+			System.out.println("Removed track " + track.getTitle() + " from CD.");
+		} else {
+			System.out.println("Track doesn't exists.");
+		}
+	}
 
-    @Override
-    public void play() {
-        System.out.println("Information of Compact Disc : \n");
-        System.out.println("CD artist: " + getArtist());
-        for (Track track : tracks) {
-            track.play();
-        }
-    }
+	public ArrayList<Track> getTracks() {
+		return tracks;
+	}
 
-    @Override
-    public String toString() {
-        // TODO Auto-generated method stub
-        return "ID: "+ getId()+" CompactDisc: " + getTitle() + " - " + getCategory() + " - $" + getCost() + " - Artist: " + artist;
-    }
+	public int getLength() {
+		int length = 0;
+		for (Track t : tracks) {
+			length += t.getLength();
+		}
+		this.length = length;
+		return length;
+	}
+
+	public String getDetails() {
+		StringBuilder sb = new StringBuilder();
+		sb.append(String.format("---CD---\nTitle: %s\nCategory: %s\nArtist: %s\nLength: %dm.\nCost: %.2f $\n", title,
+				category, artist, getLength(), cost).replaceAll(" null | 0 ", " Unknown "));
+		for (int i = 0; i < tracks.size(); i++)
+			sb.append("\nTrack no. " + (i + 1) + "\n" + tracks.get(i).getDetails());
+		return sb.toString();
+	}
+
+	//Lê Chí Dũng 20210216
+	@Override
+	public void play() throws PlayerException {
+		StringBuilder sb = new StringBuilder();
+
+		if (getLength() <= 0) {
+			throw new PlayerException("ERROR: CD length is non-positive!");
+		} else {
+			sb.append("Playing CD: " + this.getTitle() + (this.getArtist().equals("") ? "" : " by " + this.getArtist())
+					+ "\n");
+			sb.append("CD total length: " + this.getLength() + "\n");
+			JOptionPane.showMessageDialog(null, sb.toString(), "Play CD", JOptionPane.INFORMATION_MESSAGE);
+			for (Track t : tracks) {
+				try {
+					t.play();
+				} catch (PlayerException e) {
+					throw e;
+				}
+			}
+		}
+	}
+
+	@Override
+	public String toString() {
+		return String.format("CD - %s - %s - %s - %dm. : %.2f $", title, category, artist, getLength(), cost)
+				.replaceAll(" null | 0 ", " Unknown ");
+	}
+
+	public static CompactDisc createCD() {
+		System.out.println("---New CD---");
+		String title, category, artist, director;
+		float cost;
+		int nbTracks;
+
+		Scanner sc = new Scanner(System.in);
+
+		System.out.print("Enter title: ");
+		title = sc.nextLine();
+
+		System.out.print("Enter category: ");
+		category = sc.nextLine();
+
+		System.out.print("Enter artist: ");
+		artist = sc.nextLine();
+
+		System.out.print("Enter director: ");
+		director = sc.nextLine();
+
+		System.out.print("Enter cost: ");
+		cost = sc.nextFloat();
+
+		CompactDisc cd = new CompactDisc(title, category, artist, director, cost);
+
+		System.out.print("Enter number of tracks: ");
+		nbTracks = sc.nextInt();
+
+		for (int i = 0; i < nbTracks; i++) {
+			System.out.println("\nTrack no. " + (i + 1));
+			cd.addTrack(Track.createTrack());
+		}
+
+		return cd;
+	}
+
 }
